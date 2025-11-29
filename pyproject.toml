@@ -19,7 +19,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-dependencies = ["numpy"]
+dependencies = ["torch"]
 keywords = ["reinforcement learning", "sum tree", "min tree", "data structure"]
 license = { file = "LICENSE" }
 urls = { Homepage="https://github.com/tahashieenavaz/colorednoise", Repository="https://github.com/tahashieenavaz/colorednoise", Documentation="https://github.com/tahashieenavaz/colorednoise#readme" }
