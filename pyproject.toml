@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "colorednoise"
+name = "colornoise"
 version = "0.0.11"
 authors = [
   { name="Taha Shieenavaz", email="tahashieenavaz@gmail.com" },
@@ -22,11 +22,11 @@ classifiers = [
 dependencies = ["torch"]
 keywords = ["reinforcement learning", "sum tree", "min tree", "data structure"]
 license = { file = "LICENSE" }
-urls = { Homepage="https://github.com/tahashieenavaz/colorednoise", Repository="https://github.com/tahashieenavaz/colorednoise", Documentation="https://github.com/tahashieenavaz/colorednoise#readme" }
+urls = { Homepage="https://github.com/tahashieenavaz/colornoise", Repository="https://github.com/tahashieenavaz/colornoise", Documentation="https://github.com/tahashieenavaz/colornoise#readme" }
 
 [tool.setuptools.packages.find]
 where = ["."]
 exclude = ["tests*", "docs*"]
 
 [tool.setuptools.package-data]
-colorednoise = ["*.md", "*.txt"]
+colornoise = ["*.md", "*.txt"]
